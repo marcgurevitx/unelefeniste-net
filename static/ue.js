@@ -7,7 +7,6 @@ $(function() {
     var idx = Math.floor(Math.random() * videos.length)
     var vid = videos[idx]
     $("#videocon iframe").attr("src", vid)
-    $("#videocon").removeClass("hideme")
     
-    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip()
 })
